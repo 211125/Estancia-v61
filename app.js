@@ -1,7 +1,7 @@
-import express from "express";
 import { api } from "./config/config.js";
 import swaggerDocs from "./config/swagger.config.js";
-import cors from'cors';
+import express from "express";
+import cors from'cors'
 import users from './routes/user.routes.js';
 import tutorados from './routes/tutorados.routes.js';
 import atencion from "./routes/atencion.routes.js";
